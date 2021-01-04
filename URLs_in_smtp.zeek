@@ -1,7 +1,6 @@
 ##! A script for handling URLs in SMTP traffic.  
-##!  1. It logs URLs discovered in SMTP traffic.  It 
+##!  1. It logs URLs discovered in SMTP traffic. 
 ##!  2. It records them in a bloomfilter and checks if visited through HTTP requests.  
-##!
 
 
 @load base/utils/urls
